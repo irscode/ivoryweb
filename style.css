@@ -1,0 +1,61 @@
+body{
+    background-color: #696969
+    ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    float: right;
+    margin-right: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 4px;
+    width: 100%;
+  }
+
+.flex-item {
+    width: 16%;
+    padding: 10px;
+  }
+
+img {
+    margin-top: 8px;
+   /* vertical-align: middle;*/
+    width: 100%; 
+  }
+
+  hr{
+    background-color: white;
+    width: 40%;
+    height:3px;
+    border: none;
+  }
+
+#Portfolio {
+  text-align: center;
+}
+
+footer {
+    background-color: #556B2F;
+    color: white;
+    padding:10px 0 5px 10px;
+    text-align: left;
+    font-size:14px;
+  }
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
