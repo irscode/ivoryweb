@@ -1,12 +1,28 @@
+/*{
+    box-sizing: border-box
+}
+*/
+
 body{
-    background-color: #696969
-    ;
+    background-color: #696969;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20B2AA ;
+    color: #20B2AA;
+
 }
 
 h1{
     text-align: center;
 }
+
 
 ul {
     float: right;
@@ -44,6 +60,9 @@ img {
     border: none;
   }
 
+  #About{
+    text-align: center;
+  }
 #Portfolio {
   text-align: center;
 }
@@ -56,6 +75,13 @@ footer {
     font-size:14px;
   }
 
-h3 {
-    font-family: 'Open Sans', sans-serif;
-  }
+
+
+  h1, h2, h3, p {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Architects Daughter', cursive;
+}
