@@ -31,6 +31,8 @@ ul {
 
 li {
     display: inline-block;
+    color: ivory;
+    padding: 10px 20px;
 }
 
 
