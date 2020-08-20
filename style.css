@@ -87,3 +87,22 @@ footer {
 p {
     font-family: 'Architects Daughter', cursive;
 }
+
+span{
+    color: #FFD700;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
